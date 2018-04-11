@@ -3,3 +3,25 @@
 /*program that also displays the values in all three arrays*/
 
 int *addarrays(int 1starray[], int 2ndarray[], int SIZE);
+
+int main()
+{
+  int 1starray[] = {12,23,33,44,55};
+  int 2ndarray[] = {33, 4, 5, 5, 5, 5 ,5};
+  
+  int *3rdarray = addarrays(1starray, 2ndarray, 5);
+  
+  for (int i=0; i < 5; i++)
+    printf("%d \n", 3rdarray[i]);
+}
+
+int *addarrays(int 1starray[], int 2ndarray[], int length)
+{
+  int *destnarray = malloc(length * sizeof(int));
+  
+  for (int i=0; i < length; i++)
+  {
+    destnarray[i] = 1starray[i] + 2ndarray[i];
+  }
+  return destnarray;
+}
