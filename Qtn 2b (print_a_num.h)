@@ -1,5 +1,5 @@
-#ifndef FUNCTION_H  /*guard*/
-#define FUNCTION_H
+#ifndef PRINT_A_NUM_H  /*guard*/
+#define PRINT_A_NUM_H
 
 void print_a_number(int x); /* function declaration */
 
