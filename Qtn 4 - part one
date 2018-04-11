@@ -1,9 +1,9 @@
 A function that accepts two arrays of same size, adds them and puts the new value in the third array
 
-void addarrays(int firstarray[], int secondarray[], int 3rdarray[])
+void addarrays(int firstarray[], int secondarray[], int thirdarray[])
 {
   for (int i = 0; i < SIZE; i++)
   {
-    3rdarray[i] = 1starray[i] + 2ndarray[i];
+    thirdarray[i] = firstarray[i] + secondarray[i];
   }
 }
