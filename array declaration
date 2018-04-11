@@ -1,0 +1,2 @@
+Declaration of array to hold 50 characters of long type.
+long demo_array[50];
