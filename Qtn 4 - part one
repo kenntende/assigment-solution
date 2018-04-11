@@ -1,6 +1,6 @@
 A function that accepts two arrays of same size, adds them and puts the new value in the third array
 
-void addarrays(int 1starray[], int 2ndarray[], int 3rdarray[])
+void addarrays(int firstarray[], int secondarray[], int 3rdarray[])
 {
   for (int i = 0; i < SIZE; i++)
   {
