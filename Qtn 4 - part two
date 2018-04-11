@@ -1,0 +1,5 @@
+#include <stdio.h>
+
+/*program that also displays the values in all three arrays*/
+
+int *addarrays(int 1starray[], int 2ndarray[], int SIZE);
