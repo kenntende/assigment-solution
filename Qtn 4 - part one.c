@@ -1,4 +1,4 @@
-A function that accepts two arrays of same size, adds them and puts the new value in the third array
+// A function that accepts two arrays of same size, adds them and puts the new value in the third array
 
 void addarrays(int firstarray[], int secondarray[], int thirdarray[])
 {
